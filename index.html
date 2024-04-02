@@ -3,8 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Tres en raya</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
 </head>
 <body>
-    
+        <div id="names">
+            Jugador 1<input type="text" id="name">
+            Jugador 2<input type="text" id="name2">
+            <button onclick="confirmButton()">Confirmar</button>
+        </div>
+        <div class="container">
+                <button id="cells1" onclick="onButtonClicker(cells1)"></button> <!--onclik es lo que tengo que utilizar para anclarlo al js-->
+                <button id="cells2"></button>
+                <button id="cells3"></button>
+                <button id="cells4"></button>
+                <button id="cells5"></button>
+                <button id="cells6"></button>
+                <button id="cells7"></button>
+                <button id="cells8"></button>
+                <button id="cells9"></button>
+        </div>
+        <div class="reset" id="reset">
+            <button>Reset</button>
+        </div>
 </body>
 </html>
