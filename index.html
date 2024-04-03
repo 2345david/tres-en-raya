@@ -11,20 +11,25 @@
             Jugador 1<input type="text" id="name">
             Jugador 2<input type="text" id="name2">
             <button onclick="confirmButton()">Confirmar</button>
+            <br>
         </div>
-        <div class="container">
-                <button id="cells1" onclick="onButtonClicker('cells1')"></button> <!--onclik es lo que tengo que utilizar para anclarlo al js-->
-                <button id="cells2"></button>
-                <button id="cells3"></button>
-                <button id="cells4"></button>
-                <button id="cells5"></button>
-                <button id="cells6"></button>
-                <button id="cells7"></button>
-                <button id="cells8"></button>
-                <button id="cells9"></button>
+        <div class="victoryRoad">
+            <div class="victory" id="victoryPlayer1">0</div>
+            <div class="victory2" id="victoryPlayer2">0</div>
         </div>
-        <div class="reset" id="reset">
-            <button>Reset</button>
+        <div class="container" id="container2">
+                <button id="cells1" onclick="onButtonClicked('cells1')"></button>
+                <button id="cells2" onclick="onButtonClicked('cells2')"></button>
+                <button id="cells3" onclick="onButtonClicked('cells3')"></button>
+                <button id="cells4" onclick="onButtonClicked('cells4')"></button>
+                <button id="cells5" onclick="onButtonClicked('cells5')"></button>
+                <button id="cells6" onclick="onButtonClicked('cells6')"></button>
+                <button id="cells7" onclick="onButtonClicked('cells7')"></button>
+                <button id="cells8" onclick="onButtonClicked('cells8')"></button>
+                <button id="cells9" onclick="onButtonClicked('cells9')"></button>
+        </div>
+        <div class="reset" id="reset" onclick="deleteAll()">
+            <button>Reiniciar</button>
         </div>
 </body>
 </html>
