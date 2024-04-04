@@ -26,84 +26,85 @@ function onButtonClicked(cells){
     }
 
     if (document.getElementById('cells1').innerHTML === "X" && document.getElementById('cells2').innerHTML === "X" && document.getElementById('cells3').innerHTML === "X"){
-        window.alert(player1 + " WON");
+        document.getElementById('panelIsWinner').innerHTML = "Felicidades " + player1 + " has ganado la ronda";
         victoryPlayer1 = victoryPlayer1 + 1;
         document.getElementById('victoryPlayer1').innerHTML = victoryPlayer1;
     }else if (document.getElementById('cells4').innerHTML === "X" && document.getElementById('cells5').innerHTML === "X" && document.getElementById('cells6').innerHTML === "X"){
-         window.alert(player1 + " WON");
+         document.getElementById('panelIsWinner').innerHTML = "Felicidades " + player1 + " has ganado la ronda";
          victoryPlayer1 = victoryPlayer1 + 1;
          document.getElementById('victoryPlayer1').innerHTML = victoryPlayer1;
     }else if (document.getElementById('cells7').innerHTML === "X" && document.getElementById('cells8').innerHTML === "X" && document.getElementById('cells9').innerHTML === "X"){
-         window.alert(player1 + " WON");
+         document.getElementById('panelIsWinner').innerHTML = "Felicidades " + player1 + " has ganado la ronda";
          victoryPlayer1 = victoryPlayer1 + 1;
          document.getElementById('victoryPlayer1').innerHTML = victoryPlayer1;
     }else if (document.getElementById('cells1').innerHTML === "X" && document.getElementById('cells4').innerHTML === "X" && document.getElementById('cells7').innerHTML === "X"){
-         window.alert(player1 + " WON");
+          document.getElementById('panelIsWinner').innerHTML = "Felicidades " + player1 + " has ganado la ronda";
          victoryPlayer1 = victoryPlayer1 + 1;
          document.getElementById('victoryPlayer1').innerHTML = victoryPlayer1;
     }else if (document.getElementById('cells2').innerHTML === "X" && document.getElementById('cells5').innerHTML === "X" && document.getElementById('cells8').innerHTML === "X"){
-         window.alert(player1 + " WON");
+          document.getElementById('panelIsWinner').innerHTML = "Felicidades " + player1 + " has ganado la ronda";
          victoryPlayer1 = victoryPlayer1 + 1;
          document.getElementById('victoryPlayer1').innerHTML = victoryPlayer1;
     }else if (document.getElementById('cells3').innerHTML === "X" && document.getElementById('cells6').innerHTML === "X" && document.getElementById('cells9').innerHTML === "X"){
-         window.alert(player1 + " WON");
+         document.getElementById('panelIsWinner').innerHTML = "Felicidades " + player1 + " has ganado la ronda";
          victoryPlayer1 = victoryPlayer1 + 1;
          document.getElementById('victoryPlayer1').innerHTML = victoryPlayer1;
     }else if (document.getElementById('cells1').innerHTML === "X" && document.getElementById('cells5').innerHTML === "X" && document.getElementById('cells9').innerHTML === "X"){
-         window.alert(player1 + " WON");
+          document.getElementById('panelIsWinner').innerHTML = "Felicidades " + player1 + " has ganado la ronda";
          victoryPlayer1 = victoryPlayer1 + 1;
          document.getElementById('victoryPlayer1').innerHTML = victoryPlayer1;
     }else if (document.getElementById('cells3').innerHTML === "X" && document.getElementById('cells5').innerHTML === "X" && document.getElementById('cells7').innerHTML === "X"){
-         window.alert(player1 + " WON");
+          document.getElementById('panelIsWinner').innerHTML = "Felicidades " + player1 + " has ganado la ronda";
          victoryPlayer1 = victoryPlayer1 + 1;
          document.getElementById('victoryPlayer1').innerHTML = victoryPlayer1;
     }else if (document.getElementById('cells1').innerHTML === "O" && document.getElementById('cells2').innerHTML === "O" && document.getElementById('cells3').innerHTML === "O"){
-         window.alert(player2 + " WON");
+          document.getElementById('panelIsWinner').innerHTML = "Felicidades " + player2 + " has ganado la ronda";
          victoryPlayer2 = victoryPlayer2 + 1;
          document.getElementById('victoryPlayer2').innerHTML = victoryPlayer2;
     }else if (document.getElementById('cells4').innerHTML === "O" && document.getElementById('cells5').innerHTML === "O" && document.getElementById('cells6').innerHTML === "O"){
-         window.alert(player2 + " WON");
+         document.getElementById('panelIsWinner').innerHTML = "Felicidades " + player2 + " has ganado la ronda";
          victoryPlayer2 = victoryPlayer2 + 1;
          document.getElementById('victoryPlayer2').innerHTML = victoryPlayer2;
     }else if (document.getElementById('cells7').innerHTML === "O" && document.getElementById('cells8').innerHTML === "O" && document.getElementById('cells9').innerHTML === "O"){
-         window.alert(player2 + " WON");
+          document.getElementById('panelIsWinner').innerHTML = "Felicidades " + player2 + " has ganado la ronda";
          victoryPlayer2 = victoryPlayer2 + 1;
          document.getElementById('victoryPlayer2').innerHTML = victoryPlayer2;
     }else if (document.getElementById('cells1').innerHTML === "O" && document.getElementById('cells4').innerHTML === "O" && document.getElementById('cells7').innerHTML === "O"){
-         window.alert(player2 + " WON");
+          document.getElementById('panelIsWinner').innerHTML = "Felicidades " + player2 + " has ganado la ronda";
          victoryPlayer2 = victoryPlayer2 + 1;
          document.getElementById('victoryPlayer2').innerHTML = victoryPlayer2;
     }else if (document.getElementById('cells2').innerHTML === "O" && document.getElementById('cells5').innerHTML === "O" && document.getElementById('cells8').innerHTML === "O"){
-         window.alert(player2 + " WON");
+          document.getElementById('panelIsWinner').innerHTML = "Felicidades " + player2 + " has ganado la ronda";
          victoryPlayer2 = victoryPlayer2 + 1;
          document.getElementById('victoryPlayer2').innerHTML = victoryPlayer2;
     }else if (document.getElementById('cells3').innerHTML === "O" && document.getElementById('cells6').innerHTML === "O" && document.getElementById('cells9').innerHTML === "O"){
-         window.alert(player2 + " WON");
+          document.getElementById('panelIsWinner').innerHTML = "Felicidades " + player2 + " has ganado la ronda";
          victoryPlayer2 = victoryPlayer2 + 1;
          document.getElementById('victoryPlayer2').innerHTML = victoryPlayer2;
     }else if (document.getElementById('cells1').innerHTML === "O" && document.getElementById('cells5').innerHTML === "O" && document.getElementById('cells9').innerHTML === "O"){
-         window.alert(player2 + " WON");
+          document.getElementById('panelIsWinner').innerHTML = "Felicidades " + player2 + " has ganado la ronda";
          victoryPlayer2 = victoryPlayer2 + 1;
          document.getElementById('victoryPlayer2').innerHTML = victoryPlayer2;
     }else if (document.getElementById('cells3').innerHTML === "O" && document.getElementById('cells5').innerHTML === "O" && document.getElementById('cells7').innerHTML === "O"){
-         window.alert(player2 + " WON");
+          document.getElementById('panelIsWinner').innerHTML = "Felicidades " + player1 + " has ganado la ronda";
          victoryPlayer2 = victoryPlayer2 + 1;
          document.getElementById('victoryPlayer2').innerHTML = victoryPlayer2;
     }else if(document.getElementById('cells1').innerHTML != "" && document.getElementById('cells2').innerHTML != "" && document.getElementById('cells3').innerHTML != "" && document.getElementById('cells4').innerHTML != "" 
     && document.getElementById('cells5').innerHTML != "" && document.getElementById('cells6').innerHTML != "" && document.getElementById('cells7').innerHTML != "" 
     && document.getElementById('cells8').innerHTML != "" && document.getElementById('cells9').innerHTML != "") 
     {
-         window.alert("ha habido un empate");
+          document.getElementById('panelIsWinner').innerHTML = "uy, se ve que hubo un empate en esta ronda";
     }
     if (victoryPlayer1 == 3){
-          window.alert("Felicidades eres el ganador supremo " + player1)
+          
+          document.getElementById('panelIsWinner').innerHTML = "Felicidades " + player1 + " has ganado";
           document.getElementById('victoryPlayer1').innerHTML = "0";
           document.getElementById('victoryPlayer2').innerHTML = "0";
           victoryPlayer1 = "";
           player1 = "";
           player2 = "";
      }else if (victoryPlayer2 == 3){
-          window.alert("Felicidades eres el ganador supremo " + player2)
+          document.getElementById('panelIsWinner').innerHTML = "Felicidades " + player2 + " has ganado";
           document.getElementById('victoryPlayer1').innerHTML = "0";
           document.getElementById('victoryPlayer2').innerHTML = "0";
           victoryPlayer2 = "";
@@ -120,11 +121,11 @@ function deleteAll(){
      document.getElementById('cells' + i).innerHTML = "";
      }
      diferent = true;
-     yesRandom = "";
-     
+     yesRandom = ""; 
  }
 
  function deleteScoreBoard(){
+     document.getElementById('panelIsWinner').innerHTML = "Suerte al ganador";
      document.getElementById('namePlayer1').innerHTML = "Player1";
      document.getElementById('namePlayer2').innerHTML = "Player2";
      document.getElementById('victoryPlayer1').innerHTML = "0";

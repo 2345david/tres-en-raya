@@ -57,6 +57,9 @@ body{
 }
 
 .reset button{
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
     color: white;
     border-radius: 50px 5px 50px 5px;
     border: solid;
@@ -68,6 +71,7 @@ body{
 
 
 #names button{
+    cursor: pointer;
     width: 90px;
     height: 70px;
     border: solid;
@@ -101,6 +105,7 @@ input{
 }
 
 .theTable{
+    padding: 10px;
     font-family: Courier New;
     /*background-image: url(./imagenes/espacio.jpeg);*/
     color: white;
@@ -108,13 +113,25 @@ input{
     flex-direction: row;
     gap: 20px;
     justify-content: space-between;
-    border: solid 2px;
     border-color: #a570d8;
     border-radius: 10px 20px 20px 20px;
 }
-
+.doubleButtons button{
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    border-radius: 50px 5px 50px 5px;
+    border: solid;
+    border-color: #a570d8;
+    background-color: #17053f;
+}
 .doubleButtons{
     display: flex;
+    padding: 10px;
+    
 }
 
 .surprise{
@@ -122,6 +139,9 @@ input{
 }
 
 .surprise button{
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
     font-size: 15px;
     font-weight: 500;
     color: white;
@@ -136,6 +156,9 @@ input{
 }
 
 .resetScore button{
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
     font-size: 15px;
     font-weight: 500;
     color: white;
@@ -145,3 +168,22 @@ input{
     background-color: #17053f;
 }
 
+.panelIsWinner{
+    text-align: center;
+    align-items: center;
+    width: 280px;
+    padding: 10px;
+    border: solid 2px #a570d8;
+    background-color: #17053f;
+    color: white;
+}
+
+.invisible{
+    padding: 10px;
+}
+
+.btn{
+    background-color: transparent;
+    display: inline-block;
+    text-decoration: none;
+}
