@@ -13,7 +13,7 @@ body{
 }
 
 .container{
-    background-image: url(./imagenes/espacio.jpeg);
+    /*background-image: url(./imagenes/espacio.jpeg);*/
     padding: 30px 30px 30px 30px;
     border: solid 10px;
     border-radius: 20px 20px 20px 20px;
@@ -24,24 +24,31 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 10px;
-    background-color: beige;
+    background-color: transparent;
 }
 
-button{
+
+.container button{
+    font-weight: 700;
     cursor: pointer;
     width: 90px;
     height: 90px;
     border:solid;
-    border-color: red;
+    border-color: #a570d8;
     border-radius: 100%;
-    background-color:burlywood;
+    background-color:#17053f;
+    color: white;
+    font-size: 30px;
 }
 
 #names{
+    font-size: courier New;
     border: solid;
-    border-color: black;
-    background-color: wheat;
+    border-color: #a570d8;
+    background-color: #17053f;
     padding: 5px;
+    color: white;
+    border-radius: 10px;
 }
 
 .reset{
@@ -50,10 +57,13 @@ button{
 }
 
 .reset button{
+    color: white;
+    border-radius: 50px 5px 50px 5px;
     border: solid;
-    border-color: green;
-    border-radius: 10px;
-    background-color: bisque;
+    border-color: #a570d8;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #17053f;
 }
 
 
@@ -61,27 +71,77 @@ button{
     width: 90px;
     height: 70px;
     border: solid;
-    border-color: green;
+    border-color: #a570d8;
     border-radius: 10px;
-    background-color: bisque;
+    background-color: #17053f;
+    color: white;
 }
 
 .victoryRoad{
-    background-color: white;
-    border: solid;
     display: flex;
     flex-direction: row;
     gap: 10px;
 }
 
 .victory{
-    border: solid 2px;
-    border-color: red;
     font-size: 30px;
 }
 
 .victory2{
-    border: solid 2px;
-    border-color: green;
     font-size: 30px;
 }
+
+input{
+    outline: none;
+    background-color: #dfe;
+    border: 0;
+    font-size: 14px;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.theTable{
+    font-family: Courier New;
+    /*background-image: url(./imagenes/espacio.jpeg);*/
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    border: solid 2px;
+    border-color: #a570d8;
+    border-radius: 10px 20px 20px 20px;
+}
+
+.doubleButtons{
+    display: flex;
+}
+
+.surprise{
+    padding: 10px;
+}
+
+.surprise button{
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    border-radius: 50px 5px 50px 5px;
+    border: solid;
+    border-color: #a570d8;
+    background-color: #17053f;
+}
+
+.resetScore{
+    padding: 10px;
+}
+
+.resetScore button{
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    border-radius: 50px 5px 50px 5px;
+    border: solid;
+    border-color: #a570d8;
+    background-color: #17053f;
+}
+
